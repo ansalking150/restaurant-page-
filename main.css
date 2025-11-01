@@ -61,6 +61,7 @@ nav ul a:hover{
 
 
 
+
 }
 .header-content b{
     font-weight: bold;
@@ -130,7 +131,7 @@ section .text1 a:hover{
     background-color: yellow;
 }
 .img1:hover{
-    transition: 1s ease-in 1s;
+    transition: 1s;
     transform: scale(1.1) ;
     cursor: pointer;
 }
@@ -311,6 +312,13 @@ section .text1 a:hover{
   animation-timing-function: cubic-bezier(0.8, 0.05, 0.2, 0.95); /* <-- Fast start, quick stop */
   animation-fill-mode: forwards; /* <-- Crucial: Keeps the final state */
 }
+.i i:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    cursor: pointer;
+    color: yellow;
+}
+
 
 /* Define the Fast Swivel Animation */
 @keyframes swivel-fast {
