@@ -540,7 +540,7 @@ form button{
     }
     nav ul{
         flex-direction: column;
-        gap: 5px;
+        gap: 20px;
         position: relative;
         left: 0px;
     }
