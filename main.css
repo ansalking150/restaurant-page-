@@ -539,7 +539,7 @@ form button{
         width: 120px;
     }
     nav ul{
-        flex-direction: row;
+        flex-direction: column;
         gap: 5px;
         position: relative;
         left: 0px;
