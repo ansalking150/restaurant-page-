@@ -552,11 +552,9 @@ form button{
     body{
         width: fit-content;
     }
-    .header{
-        height: 70vh;
-    }
-    .back{
-        height: 70vh;
+    .header-content{
+        position: relative;
+        top: 80px;
     }
     nav img{
         width: 60px;
@@ -702,3 +700,4 @@ form button{
     }
 
 }
+
